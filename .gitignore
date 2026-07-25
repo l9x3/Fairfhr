@@ -1,0 +1,17 @@
+# input data (large; not distributed)
+data/
+*.csv
+!outputs/tables/*.csv
+
+# generated artefacts (regenerate with `python main.py`)
+outputs/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+# keep the sample report in docs/
+!docs/
+!docs/*.pdf
